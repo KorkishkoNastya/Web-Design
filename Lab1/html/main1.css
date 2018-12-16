@@ -1,0 +1,64 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #e3f7f7;
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    box-shadow: grey 0.1em 0.1em 0.3em;
+    background-color: #fff;
+}
+
+#topbar {
+    display: flex;
+    margin-top: 10px;
+}
+
+#nav {
+    height: 150px;
+    width: 50%;
+    background-color: #D6FAFA;
+}
+
+.menu > ul > li > a[href="#"] {
+	color: red;
+}
+
+#header {
+    height: 150px;
+    width: 50%;
+    background-color: #70EB9C;
+}
+
+#content {
+    height: 1000px;
+    text-indent: 1.0em;
+    margin-left: 10px;
+}
+
+
+#sections {
+    height: 350px;
+    
+}
+
+#sidebar {
+  height: 350px;
+  width: 50%;
+  float: left;
+    /*background-color: darkgray;*/
+    /*padding: 10px;*/
+    
+}
+
+#footer {
+   height: 350px;
+   width: 50%;
+   float: right;
+}
+
+li {
+    margin: 14px;
+}
