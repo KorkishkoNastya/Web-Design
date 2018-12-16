@@ -1,0 +1,26 @@
+body {
+    margin: 50px;
+    padding: 50px;
+	color: #FFB273;
+	background-image:url("images/back2.jpg");
+	background-position:left center;
+}
+
+.add_cell {
+	background-color: #FF9640;
+}
+
+.del_cell{
+	background-color: #FF9640;
+}
+
+.add_row{
+	background-color: #FF9640;
+}
+
+.del_row{
+	background-color: #FF9640;
+}
+.text{
+	background-color: #FFB273;
+}
