@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&subset=latin-ext');
+
+body, html {
+    margin: 0;
+    padding: 0;
+	font-family: "Lato&subset";
+    background-color: #BBC4CD;
+	background-image:url("../images/78.jpg");
+	background-position:left center;
+	-webkit-font-smoothing: antialiased;
+	-webkit-overflow-scrolling: touch;
+	
+}
+.container {
+    width: 80%;
+    margin: auto;
+    box-shadow: #0000FF 0.1em 0.1em 0.3em;
+    background-color: #B6B6B6;
+	background-image:url("../images/bg2.jpg");
+	opacity:1;
+}
+.navbar{
+	font-weight:500;
+	font-size: 14px;
+}
+
+.nav-item a{
+    font-size: 19px;
+    color: white ;
+}
+.btn{
+    border: 1px solid darkblue !important;
+    background-color: #194F7E !important;
+}
+.navbar-brand{
+    font-size: 26px !important;
+    color:white !important;
+}
+
+
+
+a:link, a:visited  {
+	color: #744411;
+}
+
+a:hover, a:active {
+	color: #333333;
+}
+
+#photo{
+	display: block;
+	background-image:url("../images/bg2.jpg");
+}
+
+.nav-item{
+	display: inline !important;
+}
+
+.text-darkblue{
+	color: darkblue;
+}
+@import url('https://fonts.googleapis.com/css?family=Ruslan+Display&subset=cyrillic,latin-ext');
+
+.current-button{
+	border: 3px solid #230082 !important;
+
+}
+
+h1{
+font-family: 'Ruslan Display', cursive !important;
+font-size: 32pt !important;
+font-variant: small-caps !important;
+}
+
+p{
+font-size: 16pt;
+}
+
+h3{
+font-size: 24pt;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:400,700&subset=cyrillic,cyrillic-ext');
+
+li{
+	font-family: 'Comfortaa', cursive;
+	font-size: 12pt;
+}
